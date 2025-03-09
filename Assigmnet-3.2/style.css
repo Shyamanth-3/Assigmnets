@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 5px;
+    color: #F8E1C4;
+    margin-bottom: 10px ;
+}
+#P1{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EED8C0;
+    line-height: 1.2;
+    margin-top: 5px;
+    padding-bottom: 20px;   
+}
+#B1{
+    
+    border-color: white;
+    background-color: rgba(255, 217, 0, 0);
+    cursor: pointer;
+    color: beige;
+    margin: 4px 2px;
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 25px;
+    position: absolute;
+    bottom: 50px;
+    left: 35%;
+}
+#B2{
+    border-color: white;
+    background-color: rgba(255, 217, 0, 0);
+    cursor: pointer;
+    color: beige;
+    margin: 4px 2px;
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 25px;
+    position: absolute;
+    bottom: 50px;
+    left: 55%;
+}
+.button-container {
+    align-items: center; 
+    height: 15vh; 
+    position: relative;
+    gap: 15px; 
+    border: 2px beige;
+    box-shadow: none;
+}
