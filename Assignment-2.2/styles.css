@@ -1,0 +1,28 @@
+img{
+    width: 250px;
+    height: 140.6px;
+    float: left;
+}
+h1{
+    color: rgb(249, 255, 74);
+}
+div{
+    color: aliceblue;
+}
+h2{
+    color: rgb(249, 255, 74);
+}
+a{
+    color: #ff1493
+;
+}
+hr{
+    color: rgb(3, 86, 242);
+}
+#double{
+    color: #e33b38;
+}
+
+body{
+    background-color: #0e2f44;
+}
