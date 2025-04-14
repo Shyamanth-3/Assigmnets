@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://0e9d299e890b0f46f43d-3dd2c92c26268727c0280f27b5b17857.ssl.cf1.rackcdn.com/responsive/4:3/Native/u/spa/s_spa_towels_and_stones.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-heading {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 260px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.card-header {
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.card-header p {
+    margin-top: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 20px;
+    text-align: centre;
+}
+
+ul li {
+    border-bottom: 1px dashed rgba(255,255,255,0.4);
+    padding: 10px 0;
+}
+
+.buy-btn {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.bridal-header {
+    background-color: #7930FC;
+}
+
+.stay-header {
+    background-color: #00CC66;
+}
+
+.ultimate-header {
+    background-color: #E91E63;
+}
+
+.bridal-btn {
+    background-color: #7930FC;
+}
+
+.stay-btn {
+    background-color: #00CC66;
+}
+
+.ultimate-btn {
+    background-color: #E91E63;
+}
+
+.buy-btn:hover {
+    background-color: rgb(43, 1, 169);
+    color: aliceblue;
+    opacity: 0.8;
+    padding: 12px 25px;
+}

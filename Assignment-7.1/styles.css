@@ -1,0 +1,24 @@
+ul{
+    display: flex;
+    gap: 200px;
+    align-content: center;
+    list-style-type: none;
+    margin: auto;
+    align-items: center;
+    padding-left: 550px;
+    padding-top: 250px;
+}
+ul li{
+    background-color: azure;
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    padding: 10px 10px;
+    background-color: cornflowerblue;
+    color: azure;
+}
