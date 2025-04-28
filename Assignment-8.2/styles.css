@@ -1,0 +1,223 @@
+@media screen and (min-width:1024px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    nav h1 {
+        color: #016241;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        width: 650px;
+        justify-content: space-evenly;
+    }
+    nav a {
+        text-decoration: none;
+        color: #016241;
+    }
+    nav a:hover {
+        background-color: #016241;
+        color: white;
+        padding: 5px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button {
+        display: none;
+    }
+    header {
+        text-align: center;
+        color: white;
+        background-color: #016241;
+        height: 550px;
+    }
+    header img {
+        width: 30%;
+        border-radius: 75%;
+    }
+    header p {
+        font-size: large;
+    }
+    .ele2 img{
+        align-content: center;
+    }
+    .ele1,.ele3 {
+        background-color: #016241;
+        color: white;
+        margin-top: 10px;
+        padding: 5px 15px;
+        font-size: medium;
+    }
+    .ele2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #016241;
+        color: white;
+        margin-top: 10px;
+        padding: 5px 15px;
+        font-size: medium;
+    }
+    
+    .ele1:hover, .ele2:hover, .ele3:hover { 
+        background-color: #ffffff;
+        color: #016241;
+        padding: 5px 15px;
+        border-radius: 50px;
+    }
+    main {
+        padding-top: 20px;
+        display: flex;
+        gap: 25px;
+    }
+    main img {
+        width: 60%;
+    }
+}
+
+/* Small Screen */
+@media screen and (max-width:651px) {
+    nav h1 {
+        color: #016241;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    nav ul {
+        display: none;
+    }
+    button {
+        color: #016241;
+        border: none;
+        width: 100px;
+        height: 50px;
+        background-color: #ffffff;
+        border-radius: 30px;
+        font-weight: bold;
+    }
+    nav a {
+        text-decoration: none;
+        color: #016241;
+    }
+    nav button:hover {
+        background-color: #016241;
+        color: white;
+        padding: 5px 5px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    nav h1 {
+        color: #016241;
+    }
+    header {
+        text-align: center;
+        color: white;
+        background-color: #016241;
+        height: 400px;
+    }
+    header img {
+        width: 40%;
+        border-radius: 75%;
+    }
+    header p {
+        font-size: large;
+    }
+    .ele1, .ele2, .ele3 {
+        background-color: #016241;
+        color: white;
+        margin-top: 10px;
+        padding: 5px 15px;
+        font-size: medium;
+    }
+    .ele1:hover, .ele2:hover, .ele3:hover { 
+        background-color: #ffffff;
+        color: #016241;
+        padding: 5px 15px;
+        border-radius: 50px;
+    }
+    main {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 25px;
+    }
+    main img {
+        width: 80%;
+    }
+}
+
+/* Medium Screen */
+@media screen and (min-width:651px) and (max-width:1024px) {
+    nav h1 {
+        color: #016241;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        width: 500px;
+        justify-content: space-evenly;
+    }
+    nav a {
+        text-decoration: none;
+        color: #016241;
+    }
+    nav a:hover {
+        background-color: #016241;
+        color: white;
+        padding: 5px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button {
+        display: none;
+    }
+    nav h1 {
+        color: #016241;
+    }
+    header {
+        text-align: center;
+        color: white;
+        background-color: #016241;
+        height: 500px;
+    }
+    header img {
+        width: 25%;
+        border-radius: 75%;
+    }
+    header p {
+        font-size: large;
+    }
+    .ele1, .ele2, .ele3 {
+        background-color: #016241;
+        color: white;
+        margin-top: 10px;
+        padding: 5px 15px;
+        font-size: medium;
+    }
+    .ele1:hover, .ele2:hover, .ele3:hover { 
+        background-color: #ffffff;
+        color: #016241;
+        padding: 5px 15px;
+        border-radius: 50px;
+    }
+    main {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 25px;
+    }
+    main img {
+        width: 60%;
+    }
+}
